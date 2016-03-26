@@ -12,6 +12,7 @@
 		288CEAC21CA6944800DC2AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288CEAC01CA6944800DC2AE0 /* Main.storyboard */; };
 		288CEAC41CA6944800DC2AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288CEAC31CA6944800DC2AE0 /* Assets.xcassets */; };
 		288CEAC71CA6944800DC2AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288CEAC51CA6944800DC2AE0 /* LaunchScreen.storyboard */; };
+		288CEACF1CA6950A00DC2AE0 /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288CEACE1CA6950A00DC2AE0 /* CustomActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		288CEAC31CA6944800DC2AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288CEAC61CA6944800DC2AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288CEAC81CA6944800DC2AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288CEACE1CA6950A00DC2AE0 /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				288CEAC31CA6944800DC2AE0 /* Assets.xcassets */,
 				288CEAC51CA6944800DC2AE0 /* LaunchScreen.storyboard */,
 				288CEAC81CA6944800DC2AE0 /* Info.plist */,
+				288CEACE1CA6950A00DC2AE0 /* CustomActivityIndicatorView.swift */,
 			);
 			path = CustomActivityIndicator;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288CEACF1CA6950A00DC2AE0 /* CustomActivityIndicatorView.swift in Sources */,
 				288CEABF1CA6944800DC2AE0 /* ViewController.swift in Sources */,
 				288CEABD1CA6944800DC2AE0 /* AppDelegate.swift in Sources */,
 			);
